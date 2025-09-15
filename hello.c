@@ -1,6 +1,6 @@
-/* Fichier: bonjour1.c
+/* Fichier: hello.c
 * affiche 'Bonjour le Monde!!!' à l'écran.
-* auteur: John Samuel
+* auteur: Paul-Malo Poisson
 * Ceci est un commentaire sur plusieurs lignes
 */
 
