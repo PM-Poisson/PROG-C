@@ -8,6 +8,6 @@
 
 // Ceci est un commentaire sur une ligne
 int main() {
-    printf("Bonjour le Monde !!!");
+    printf("Hello World !");
     return 0;
 }
