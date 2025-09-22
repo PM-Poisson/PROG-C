@@ -41,7 +41,7 @@ void concatener(char *destination, const char *source) {
 
 int main() {
     char chaine1[50] = "Hello";
-    char chaine2[50] = " World!";
+    char chaine2[50] = " World !";
     char copie[50];
 
     // Longueur
