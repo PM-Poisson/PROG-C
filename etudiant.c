@@ -5,11 +5,11 @@ int main() {
     char noms[5][30] = {"Dupont", "Martin", "Durand", "Bernard", "Petit"};
     char prenoms[5][30] = {"Alice", "Bob", "Claire", "David", "Emma"};
     char adresses[5][100] = {
-        "10 rue de Paris",
-        "25 avenue de Lyon",
-        "5 boulevard Victor Hugo",
-        "42 rue Nationale",
-        "7 impasse des Lilas"
+        "10 Avenue Debrousse",
+        "4 Rue Victor Hugo",
+        "11bis Rue d'Enghien",
+        "2185 Route de St Martin",
+        "22 Rue de l'Arc-en-Ciel"
     };
 
     float notesProgC[5] = {15.5, 12.0, 18.0, 10.5, 14.0};
