@@ -7,7 +7,7 @@ Objectifs : Le but du TP était d'écrire, compiler et exécuter des programmes 
 
 Exercice 1
 Fichier: bonjour.c
-Bibliothèque : stdio
+Bibliothèque : stdio /n
 Référence : bonjour.c du cours en ligne
 Difficulté : facile
 Commentaires : -
