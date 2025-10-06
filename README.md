@@ -1,13 +1,13 @@
 README
 
 --- TP1 ---
-/n
+
 
 Objectifs : Le but du TP était d'écrire, compiler et exécuter des programmes simples en C.
 
 Exercice 1
 Fichier: bonjour.c
-Bibliothèque : stdio /n
+Bibliothèque : stdio \n
 Référence : bonjour.c du cours en ligne
 Difficulté : facile
 Commentaires : -
