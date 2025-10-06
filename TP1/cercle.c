@@ -4,7 +4,7 @@
 int main() {
     double rayon;
     double aire, perimetre;
-    const double PI = M_PI;
+    const double PI = 3.141592653589793;
 
     // Valeur du rayon
     printf("Entrez le rayon du cercle : ");
