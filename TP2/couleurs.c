@@ -1,12 +1,12 @@
 #include <stdio.h>
-#include <stdint.h> // pour uint8_t
+#include <string.h>
 
 // Définition d'une structure pour représenter une couleur RGBA
 struct Couleur {
-    uint8_t r; // Rouge (0-255)
-    uint8_t g; // Vert (0-255)
-    uint8_t b; // Bleu (0-255)
-    uint8_t a; // Alpha (0-255, transparence)
+    unsigned char r; // Rouge (0-255)
+    unsigned char g; // Vert (0-255)
+    unsigned char b; // Bleu (0-255)
+    unsigned char a; // Alpha (0-255)
 };
 
 int main() {
