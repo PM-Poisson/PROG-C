@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "variables2.C": "cpp"
+        "variables2.C": "cpp",
+        "string.h": "c"
     }
 }
