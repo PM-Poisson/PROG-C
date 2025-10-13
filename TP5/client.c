@@ -9,7 +9,7 @@ void envoie_message() {
     char reponse[MAX_MSG];
     FILE *fmsg, *frep;
 
-    printf("Votre message (max %d caractères) : ", MAX_MSG - 1);
+    printf("Votre message (max %d caracteres) : ", MAX_MSG - 1);
     fgets(message, MAX_MSG, stdin);
 
     // Écriture du message dans un fichier partagé
@@ -21,7 +21,7 @@ void envoie_message() {
     fputs(message, fmsg);
     fclose(fmsg);
 
-    printf("Message envoyé au serveur.\nEn attente de la réponse...\n");
+    printf("Message envoye au serveur.\nEn attente de la reponse...\n");
 
     // Attente de la réponse (jusqu'à ce que le fichier soit créé)
     while (access("reponse_serveur.txt", F_OK) != 0) {
@@ -37,7 +37,7 @@ void envoie_message() {
     fgets(reponse, MAX_MSG, frep);
     fclose(frep);
 
-    printf("Message reçu du serveur : %s\n", reponse);
+    printf("Message recu du serveur : %s\n", reponse);
 
     // Suppression des fichiers après lecture
     remove("message_client.txt");

@@ -6,7 +6,7 @@
 #include <signal.h>
 
 void quitter(int sig) {
-    printf("\nSignal Ctrl+C capturé. Sortie du programme.\n");
+    printf("\nSignal Ctrl+C capture. Sortie du programme.\n");
     exit(0);
 }
 
@@ -33,10 +33,10 @@ void recois_envoie_message() {
         fgets(message, MAX_MSG, fmsg);
         fclose(fmsg);
 
-        printf("Message reçu : %s\n", message);
+        printf("Message recu : %s\n", message);
 
         // Saisie de la réponse
-        printf("Entrez un message à renvoyer au client : ");
+        printf("Entrez un message a renvoyer au client : ");
         fgets(reponse, MAX_MSG, stdin);
 
         // Écriture de la réponse dans un autre fichier
@@ -50,7 +50,7 @@ void recois_envoie_message() {
 
         // Attente de la prochaine communication
         remove("message_client.txt");
-        printf("Réponse envoyée au client.\nEn attente d'un nouveau message...\n\n");
+        printf("Réponse envoyee au client.\nEn attente d'un nouveau message...\n\n");
     }
 }
 
