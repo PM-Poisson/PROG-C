@@ -4,5 +4,6 @@
 #define MAX_MSG 1000
 
 void recois_envoie_message();
+void recois_numeros_calcule(const char *message);
 
 #endif
