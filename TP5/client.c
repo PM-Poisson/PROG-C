@@ -56,7 +56,7 @@ void envoie_operateur_numeros(char operateur, int a, int b) {
     fclose(fmsg);
 
     printf("Message envoye au serveur : %s", message);
-    printf("En attente de la réponse...\n");
+    printf("En attente de la reponse...\n");
 
     while (access("reponse_serveur.txt", F_OK) != 0)
         sleep(1);
@@ -70,7 +70,7 @@ void envoie_operateur_numeros(char operateur, int a, int b) {
     fgets(reponse, MAX_MSG, frep);
     fclose(frep);
 
-    printf("Résultat recu du serveur : %s\n", reponse);
+    printf("Resultat recu du serveur : %s\n", reponse);
 
     remove("message_client.txt");
     remove("reponse_serveur.txt");
