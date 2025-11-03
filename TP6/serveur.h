@@ -1,6 +1,10 @@
+/* serveur.h
+ * Prototype du serveur.
+ */
+
 #ifndef SERVEUR_H
 #define SERVEUR_H
 
-void server_watch_and_render();
+int run_server(void);
 
 #endif
